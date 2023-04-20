@@ -128,5 +128,6 @@
     - We can add spacing to content using elements such as padding and margin:
     padding: The space between the content of an element and its border, which can create gaps from top, bottom, left, and/or right if the value is specified. 
     margin: The space outside an element which can create gaps from top, bottom, left, and/or right if the value is specified. 
-
-
+12. What is the main difference between margin and padding?
+    - The main difference between these two property's is that they specialize in spacing different areas of content. As previously stated, padding controls the space between the content and its border while margin controls the space outside of the element.
+   
