@@ -142,6 +142,6 @@
     - When 'display: inline-block' is used, it ensures that the content is inline and leveled within the text content of their parent container, but can have block-level properties like width, height, margin, and padding applied to them. This allows them to be styles like block elements.
    grid: 
     - The CSS grid is a two-dimensional layout system that allows web designers to create grid-based layouts with rows and columns if the value is specified.
-   flexbox:
+   flex:
     - This is a one-dimensional layout system that allows web designers to create flexible layouts with items aligned along a single axis, either horizontally or vertically is the value is specified.
 
