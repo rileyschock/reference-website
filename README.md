@@ -105,5 +105,11 @@ Accessibility is crucial when coding in HTML, since it ensures that web content 
    landmark roles:
    - These are used to define different sections of content in a web page, providing structure and improving accessibility. For example, <header>, <nav>, <main>, and <article> are all landmark roles.
    aria labels:
-   - Aria stands for Accessible Rich Internet Applications, and are attributes particularly for elements that do not have specific accessibility semantics. They provide additional information about the accessibility of web content for users with disabilities. For example, <a href="#" aria-label="Learn more about this content">Read more</a>. In this case 'aria-label' is used as an alternative to the visible text for the element.
-   image alternative texts:
+   - Aria stands for 'Accessible Rich Internet Applications', and are attributes particularly for elements that do not have specific accessibility semantics. They provide additional information about the accessibility of web content for users with disabilities. For example, <a href="#" aria-label="Learn more about this content">Read more</a>. In this case 'aria-label' is used as an alternative to the visible text for the element.
+   image alternative texts: <img src="image.png" alt="A bouquet of flowers sitting on a bedside table">
+   - Image alternative text, or 'alt', is a description that is associated with an image, and by using the 'alt' attribute, it provides the image with a descriptive alternative in case the image cannot be displayed, or if an individual accessing the page has a disability or impairement.
+   8. What is CSS and how can we implement CSS to our html file?
+   - CSS stands for Cascading Style Sheets and is a stylesheet language used for the presentation and styling of HTML documents. This language allows web designers to control the appearance of web pages such as font, color, margins, and padding. 
+   - To implement CSS in an HTML file, you can use the following steps:
+     1. Create a separate text file with a .css extension that will contain your CSS rules called "styles.css".
+     2. In your HTML file, use the <link> element in the <head> section to link your CSS file to the HTML document. The href attribute should contain the file path or URL of your CSS file. The html file should have this text embeded: <link rel="stylesheet" href="styles.css">
