@@ -124,4 +124,9 @@
      }
 10. Why do we use border-box property in CSS?
     - The border-box property is used to include the padding and border set on an element in its total width and height calculation, which allows for more predictable and consistent layouts throughout the document.
+11. Explain different type of ways we can add spacing to an element
+    - We can add spacing to content using elements such as padding and margin:
+    padding: The space between the content of an element and its border, which can create gaps from top, bottom, left, and/or right if the value is specified. 
+    margin: The space outside an element which can create gaps from top, bottom, left, and/or right if the value is specified. 
+
 
