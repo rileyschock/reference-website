@@ -122,5 +122,6 @@
      header {
      color: green;
      }
-
+10. Why do we use border-box property in CSS?
+    - The border-box property is used to include the padding and border set on an element in its total width and height calculation, which allows for more predictable and consistent layouts throughout the document.
 
