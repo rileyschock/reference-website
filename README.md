@@ -113,3 +113,13 @@ Accessibility is crucial when coding in HTML, since it ensures that web content 
    - To implement CSS in an HTML file, you can use the following steps:
      1. Create a separate text file with a .css extension that will contain your CSS rules called "styles.css".
      2. In your HTML file, use the <link> element in the <head> section to link your CSS file to the HTML document. The href attribute should contain the file path or URL of your CSS file. The html file should have this text embeded: <link rel="stylesheet" href="styles.css">
+     9. What is the difference between CSS property and value?
+     - A CSS property specifies the aspect of an element's style that you want to control. It is associated with a specific property name, and it determines what aspect of an element's appearance or layout you want to modify. An example of this is setting the font size in the header to 20px:
+     header {
+      font-size: 20px;
+     }
+     - A CSS value is the assigned value for a CSS property. It specifies to what length you want applied to a property. An example of this is setting the colour of the header to red using a CSS value:
+     header {
+     color: green;
+     }
+
