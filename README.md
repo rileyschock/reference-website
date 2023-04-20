@@ -100,4 +100,10 @@ In HTML, block-level elements are used to create structure in the document, or c
    - The footer on a web page is representative of the bottom section, which normally contains metadata, copyright information, contact details, or similar content intended to be displayed at the bottom of the page.
    span: <p>This is a <span style="color: green;">green</span> paragraph.</p>
    - The <span> element is used for styling purposes to a specific section of text or inline content. Normally it is used for content such as applying CSS styles, and adding inline formatting.
-   
+   7. Explain why accessibility is important and also explain the accessibility properties:
+Accessibility is crucial when coding in HTML, since it ensures that web content is perceivable, navigable, useable, and most importantly understandable by as many people as possible, taking into account those with disabilities and/or impairments. Some examples of accessiblity properties include:
+   landmark roles:
+   - These are used to define different sections of content in a web page, providing structure and improving accessibility. For example, <header>, <nav>, <main>, and <article> are all landmark roles.
+   aria labels:
+   - Aria stands for Accessible Rich Internet Applications, and are attributes particularly for elements that do not have specific accessibility semantics. They provide additional information about the accessibility of web content for users with disabilities. For example, <a href="#" aria-label="Learn more about this content">Read more</a>. In this case 'aria-label' is used as an alternative to the visible text for the element.
+   image alternative texts:
