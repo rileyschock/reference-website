@@ -126,8 +126,22 @@
     - The border-box property is used to include the padding and border set on an element in its total width and height calculation, which allows for more predictable and consistent layouts throughout the document.
 11. Explain different type of ways we can add spacing to an element
     - We can add spacing to content using elements such as padding and margin:
-    padding: The space between the content of an element and its border, which can create gaps from top, bottom, left, and/or right if the value is specified. 
-    margin: The space outside an element which can create gaps from top, bottom, left, and/or right if the value is specified. 
+   padding: The space between the content of an element and its border, which can create gaps from top, bottom, left, and/or right if the value is specified. 
+   margin: The space outside an element which can create gaps from top, bottom, left, and/or right if the value is specified. 
 12. What is the main difference between margin and padding?
     - The main difference between these two property's is that they specialize in spacing different areas of content. As previously stated, padding controls the space between the content and its border while margin controls the space outside of the element.
-   
+13. What are different types of display properties?
+    - Display properties defines how an element should be positioned in the layout of a web page, and the main display properties are:
+   none:
+    - As its name might hint towards, elements with 'display: none' cannot be displayed on the web page, and therefore do not take up any unwanted space in the file's layout.
+   inline:
+    - When 'display: inline' is used, it ensures that the content is inline and leveled within the text content of their parent container.
+   block:
+    - When 'display: block' is used, it ensures that the content is block and leveled within the text content of their parent container, allowing them to take up its full width.
+   inline-block:
+    - When 'display: inline-block' is used, it ensures that the content is inline and leveled within the text content of their parent container, but can have block-level properties like width, height, margin, and padding applied to them. This allows them to be styles like block elements.
+   grid: 
+    - The CSS grid is a two-dimensional layout system that allows web designers to create grid-based layouts with rows and columns if the value is specified.
+   flexbox:
+    - This is a one-dimensional layout system that allows web designers to create flexible layouts with items aligned along a single axis, either horizontally or vertically is the value is specified.
+
