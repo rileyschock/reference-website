@@ -192,5 +192,11 @@
      .grid-container {
      grid-auto-flow: column
      }
-
+25. 
+     1. Select the font from the Google Fonts website.
+     2. When chosen, click on "Select this style" for the font chosen.
+     3. Then click on the "Embed" tab at the bottom of the page.
+     4. Copy the CSS code provided in the "Embed" tab.
+     5. Paste the code in the <head> section of the HTML file. It should look like this:
+       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
 
