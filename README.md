@@ -146,4 +146,12 @@
     - This is a one-dimensional layout system that allows web designers to create flexible layouts with items aligned along a single axis, either horizontally or vertically is the value is specified.
 14. Write a brief explanation of flexbox property
     -  Flexbox is property used in CSS for layout purposes, and provides an effective way to align and distribute elements within a container along a single vertical or horizontal axis. It can control their size, spacing, and order.
+15. What are different types of flexbox properties and what is the major difference between them?
+   flex-direction:
+    - Determines the direction the flex items are laid out within the container. Applicable code to this property are 'row', 'row-reverse', 'column', and 'column-reverse'
+   flex-wrap:
+    - Determines whether the flex items should wrap onto multiple lines if they are overflowing within the container. Applicable code to this property are 'wrap', 'wrap-reverse', and 'no-wrap'.
+   justify-content: Aligns the flex items along the main axis within the container. If the flex items are to be aligned horizontally, this will apply a row, and if aligned vertically, this will apply a column.
+   align-content: Aligns the flex lines along the x-axis when there is extra space within the container.
+   align-items: Aligns the flex items along the x-axis within the container.
 
