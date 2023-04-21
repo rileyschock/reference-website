@@ -187,5 +187,10 @@
      }
 23. What is the area property in CSS grid we use for the child elements?
     - The area property used for child elements is 'grid-area', and allows us to specify a name or multiple names for a grid item, which represents its location in the grid.
+24. Which sub-property of display grid you can use to prevent displaying empty columns. Write a code example of that property.
+    - We can prevent this by using 'grid-auto-flow:column' as it will automatically flow additional grid items into new columns.
+     .grid-container {
+     grid-auto-flow: column
+     }
 
 
