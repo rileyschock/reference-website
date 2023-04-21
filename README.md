@@ -185,5 +185,7 @@
      display: grid;
      grid-template-columns: 1fr 2fr 3fr
      }
+23. What is the area property in CSS grid we use for the child elements?
+    - The area property used for child elements is 'grid-area', and allows us to specify a name or multiple names for a grid item, which represents its location in the grid.
 
 
