@@ -175,4 +175,7 @@
      grid-template-rows: 50px 100px;
      }
     - In this circumstance, the parent property is the 'display:grid' code, and the two sub-properties are the 'grid-template-columns' and 'grid-template-rows'. The sub-properties define both the columns and the rows in the grid, and are able to set its values.
+20. What is the difference between display: flex and display: grid?
+    - There are multiple differences between these two properties, and the main ones are the axis of the layout, the alignment, and the flexibility. While flex is used for one-dimentional, simplier and linear layouts, grid can be more complex and multi-dimentional. Both properties provide alignment stylization, however they produce different syntax code which have different behaviours.
+
 
