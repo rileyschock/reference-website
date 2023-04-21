@@ -168,4 +168,11 @@
     - In this circumstance, the sub-property applied to the .parent class 'flex-wrap: nowrap;' prevents child elements from wrapping to a new line.
 18. What is CSS grid property?
     - The CSS grid is a two-dimensional layout system that allows web designers to create grid-based layouts with rows and columns if the value is specified. The grid container is defined using 'display: grid;' and the child elements inside it are automatically placed into the grid cells.
+19. Write the parent and two sub-properties used for CSS Grid Property.
+     .grid-container {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: 50px 100px;
+     }
+    - In this circumstance, the parent property is the 'display:grid' code, and the two sub-properties are the 'grid-template-columns' and 'grid-template-rows'. The sub-properties define both the columns and the rows in the grid, and are able to set its values.
 
