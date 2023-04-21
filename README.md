@@ -160,4 +160,10 @@
         justify-content: center;
     }
     - In this circumstance, the 'display: flex' element applied to the .parent class creates a flex container. The sub-property 'justify-content' is set to center, meaning Child elements are centered along the main axis.
+17. Write a code example on how you will use a flexbox property on a parent element with sub properties
+    .parent {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    - In this circumstance, the sub-property applied to the .parent class 'flex-wrap: nowrap;' prevents child elements from wrapping to a new line.
 
