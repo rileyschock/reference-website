@@ -166,4 +166,6 @@
         flex-wrap: nowrap;
     }
     - In this circumstance, the sub-property applied to the .parent class 'flex-wrap: nowrap;' prevents child elements from wrapping to a new line.
+18. What is CSS grid property?
+    - The CSS grid is a two-dimensional layout system that allows web designers to create grid-based layouts with rows and columns if the value is specified. The grid container is defined using 'display: grid;' and the child elements inside it are automatically placed into the grid cells.
 
