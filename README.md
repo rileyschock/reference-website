@@ -144,4 +144,6 @@
     - The CSS grid is a two-dimensional layout system that allows web designers to create grid-based layouts with rows and columns if the value is specified.
    flex:
     - This is a one-dimensional layout system that allows web designers to create flexible layouts with items aligned along a single axis, either horizontally or vertically is the value is specified.
+14. Write a brief explanation of flexbox property
+    -  Flexbox is property used in CSS for layout purposes, and provides an effective way to align and distribute elements within a container along a single vertical or horizontal axis. It can control their size, spacing, and order.
 
