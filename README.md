@@ -179,5 +179,11 @@
     - There are multiple differences between these two properties, and the main ones are the axis of the layout, the alignment, and the flexibility. While flex is used for one-dimentional, simplier and linear layouts, grid can be more complex and multi-dimentional. Both properties provide alignment stylization, however they produce different syntax code which have different behaviours.
 21. What sub-property do we use to divide elements in CSS Grid properties?
     - The grid-template-columns and grid-template-rows allows us to divide elements and define their proportions.
+22. What unit we use to fractionally divide the element width in CSS Grid property and what are others unit we can use alternatively? (Write a code example)
+    - The unit 'fr', or fraction, is what we use to fractionally divide width, hence the name. It allows us to divide available space into equal fractions, where each fraction takes up an equal amount. An example of this would be:
+     .grid-container {
+     display: grid;
+     grid-template-columns: 1fr 2fr 3fr
+     }
 
 
