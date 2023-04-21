@@ -154,4 +154,10 @@
    justify-content: Aligns the flex items along the main axis within the container. If the flex items are to be aligned horizontally, this will apply a row, and if aligned vertically, this will apply a column.
    align-content: Aligns the flex lines along the x-axis when there is extra space within the container.
    align-items: Aligns the flex items along the x-axis within the container.
+16. Explain with code the use of flexbox property on a parent element and also explain the sub properties you might need for the flexbox property
+    .parent {
+        display: flex;
+        justify-content: center;
+    }
+    - In this circumstance, the 'display: flex' element applied to the .parent class creates a flex container. The sub-property 'justify-content' is set to center, meaning Child elements are centered along the main axis.
 
